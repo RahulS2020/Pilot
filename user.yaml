@@ -3,7 +3,6 @@
   become: yes
   become_user: root
   become_method: sudo
-  become_password: Welcome@2020
 
   tasks:
    - name: Create User Demo
